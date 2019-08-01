@@ -1,4 +1,4 @@
-#Removes duplicates from a file.
+# Removes duplicates from a file.
 
 prev_ref = " "
 
