@@ -1,5 +1,5 @@
-# Length limiting version of CleanAlignments.py.
-
+# Selects "best" read from data (characterized by length and distance from
+# end position).
 from collections import Counter
 
 def main():

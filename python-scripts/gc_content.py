@@ -1,4 +1,4 @@
-#Calculates the GC content of each sequence.
+# Calculates the GC content of each sequence.
 
 refs = []
 seqs = []

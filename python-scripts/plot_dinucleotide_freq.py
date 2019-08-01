@@ -1,4 +1,4 @@
-#Plots stacked bar graph of dinucleotide frequencies, stratified by start position.
+# Plots stacked bar graph of dinucleotide frequencies, stratified by start position.
 
 import pandas as pd
 import matplotlib.pyplot as plt

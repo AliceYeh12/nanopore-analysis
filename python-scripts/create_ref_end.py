@@ -1,3 +1,5 @@
+# Creates guide with reference and end position.
+
 in_file = input("Enter file name: ")
 out_file = input("Enter output file name: ")
 

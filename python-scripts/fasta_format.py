@@ -1,4 +1,4 @@
-#Creates FASTA file format from text file.
+# Creates FASTA file format from text with reference and sequence.
 
 input_file = input("Enter file: ")
 out_file = input("Enter output file: ")

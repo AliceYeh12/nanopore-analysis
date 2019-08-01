@@ -1,4 +1,4 @@
-#Tracks nucleotide frequency from sequence inputs.
+# Tracks nucleotide frequency from sequence inputs.
 
 GTCA = [0, 0, 0, 0]
 start_pos_file = input("Enter data file name: ")

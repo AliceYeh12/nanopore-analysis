@@ -1,3 +1,5 @@
+# Plots histogram from sequence data.
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 

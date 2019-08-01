@@ -1,4 +1,4 @@
-#Calculates the amount of transcript coverage for each read.
+# Calculates the amount of transcript coverage for each read.
 
 len_dict = {}
 

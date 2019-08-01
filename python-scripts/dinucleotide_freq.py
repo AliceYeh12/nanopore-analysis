@@ -1,4 +1,4 @@
-#Calculates the dinucleotide frequency for each bin (separate by start position).
+# Calculates the dinucleotide frequency for each bin (separated by start position).
 
 one = {}
 two = {}
@@ -42,6 +42,7 @@ def main():
     output(four, out_file)
     output(five, out_file)
 
+# Categorized by start position (calculated relative to strand length).
 def categorize(num, seq):
     num = float(num)
     if num <= 0.2:
@@ -55,6 +56,7 @@ def categorize(num, seq):
     else:
         addNuc(five, seq)
 
+# Finds and adds dinucleotide to respective bin.
 def addNuc(dinuc_dict, seq):
     pos1 = 0
     pos2 = 1
@@ -68,6 +70,7 @@ def addNuc(dinuc_dict, seq):
         pos1 += 1
         pos2 += 1
 
+# Prints frequency (in percent) of each dinucleotide pair.
 def output(dict, out_file):
     sum = 0
     for key in sorted(dict.keys()):
