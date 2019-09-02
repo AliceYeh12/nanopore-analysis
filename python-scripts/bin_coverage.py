@@ -8,8 +8,8 @@ def main():
     sns.set()
     data = []
 
-    file_name = input("Enter file name: ")
-    out_file = input("Enter output file name: ")
+    file_name = "rel_start_pos.txt"
+    out_file = "startpos_vs_length.png"
     with open(file_name) as file:
         for line in file:
             (len, cov) = line.split()
