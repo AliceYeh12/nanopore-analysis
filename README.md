@@ -1,8 +1,6 @@
 # Elucidating Nanopore-Based Long-Read Sequencing Limitations By Investigating RNA Sequence and Structure Level Features
 
 ## Overview
-This repository was created for my project at the Simons Summer Research Program.
-
 This project seeks to explain the phenomenon of read truncation (when sequencing output does not represent the entirety of the template sequence) by computationally finding and analyzing sequence and structural patterns found within RNA reads sequenced with nanopore-based technology. This research can have potential implications in improving sequencing technology, which has applications ranging from cancer research to water testing and forensics.
 
 ## Abstract
