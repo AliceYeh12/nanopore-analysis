@@ -11,9 +11,9 @@ def main():
     refs = []
     seqs = []
 
-    ref_file = input("Enter reference file name: ")
-    dinuc_file = input("Enter dinucleotide frequency file name: ")
-    out_file = input("Enter output file name: ")
+    ref_file = "ref.txt"
+    dinuc_file = "dinuc_freq.txt"
+    out_file = "dinuc_sorted.txt"
 
     with open(ref_file) as file:
         for line in file:

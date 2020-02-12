@@ -1,7 +1,7 @@
 # Creates FASTA file format from text with reference and sequence.
 
-input_file = input("Enter file: ")
-out_file = input("Enter output file: ")
+input_file = "refseq.txt"
+out_file = "refseq.fa"
 
 seq_dict = []
 with open(input_file) as file:

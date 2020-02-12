@@ -1,7 +1,7 @@
 len_dict = {}
 
 # Store reference names and the respective transcript length.
-length_file = input("Enter sorted sequence length file name: ")
+length_file = "sslb.txt"
 with open(length_file) as file:
     for line in file:
         try:
@@ -12,8 +12,8 @@ with open(length_file) as file:
 
 # Uses start position and sequence to calculate end position with respect
 # to transcript length.
-end_pos_file = input("Enter data file name: ")
-out_file = input("Enter output file name: ")
+end_pos_file = "endpos.txt"
+out_file = "relend.txt"
 with open(end_pos_file) as file:
     for line in file:
         try:

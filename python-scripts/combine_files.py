@@ -1,8 +1,8 @@
 # Combines two files.
 
-start_file = input("Enter start file name: ")
-end_file = input("Enter end file name: ")
-out_file = input("Enter output file name: ")
+start_file = "start.txt"
+end_file = "end.txt"
+out_file = "comb.txt"
 
 with open(start_file) as start, open(end_file) as end:
     for s, e in zip(start, end):

@@ -1,8 +1,8 @@
 # Combines two files by reference number.
 
-start_file = input("Enter start file name: ")
-x_file = input("Enter x file name: ")
-out_file = input("Enter output file name: ")
+start_file = "start.txt"
+x_file = "x.txt"
+out_file = "combref.txt"
 
 start_dict = {}
 with open(start_file) as file:

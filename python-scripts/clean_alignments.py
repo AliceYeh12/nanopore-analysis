@@ -22,7 +22,7 @@ def main():
     end_pos_new = []
     ref_new_count = {}
 
-    ref_file = input("Enter sorted sequence length file name: ")
+    ref_file = "sslb.txt"
     with open(ref_file) as file:
         for line in file:
             try:
@@ -33,8 +33,8 @@ def main():
 
     # Reads in data regarding reference name and start position and the
     # sequence.
-    file_name = input("Enter input (sorted end position) file name: ")
-    out_file = input("Enter output file name: ")
+    file_name = "sep.txt"
+    out_file = "optread.txt"
     with open(file_name) as file:
         for line in file:
             (ref, start, aln) = line.split()

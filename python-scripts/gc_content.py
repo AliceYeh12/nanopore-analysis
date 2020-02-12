@@ -3,7 +3,7 @@
 refs = []
 seqs = []
 content = []
-in_file = input("Enter file name: ")
+in_file = "seq.txt"
 with open(in_file) as file:
     for line in file:
         try:
